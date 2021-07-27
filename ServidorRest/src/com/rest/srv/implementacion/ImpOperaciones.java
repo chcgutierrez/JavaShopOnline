@@ -16,7 +16,7 @@ public class ImpOperaciones implements IOperaciones {
 	@Override
 	public String Sumar(@PathParam("numA") double numA, @PathParam("numB") double numB) {
 		// TODO Auto-generated method stub
-		return mensaje + (numA * numB);
+		return mensaje + (numA + numB);
 	}
 
 	@GET
