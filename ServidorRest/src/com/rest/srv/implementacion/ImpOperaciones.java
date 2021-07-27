@@ -40,7 +40,16 @@ public class ImpOperaciones implements IOperaciones {
 	@Override
 	public String Dividir(@PathParam("numA") double numA, @PathParam("numB") double numB) {
 		// TODO Auto-generated method stub
-		return mensaje + (numA / numB);
+		if (numA != 0 && numB != 0) {
+			
+			return mensaje + (numA / numB);
+			
+		}else {
+			
+			return "Datos no válidos";
+			
+		}
+		
 	}
 
 }
