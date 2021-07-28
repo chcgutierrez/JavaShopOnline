@@ -6,7 +6,7 @@ body {
 #container {
   width: 840px;
   margin: 25px auto;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .whysign {
@@ -17,6 +17,7 @@ body {
   border-radius: 0 5px 5px 0;
   padding-top: 20px;
   padding-right: 20px;
+  padding-bottom: 15px;
 }
 .whysignLogin
 {
@@ -41,7 +42,7 @@ body {
 .signup {
   float: left;
   width: 300px;
-  padding: 30px 20px;
+  padding: 20px 20px;
   background-color: white;
   text-align: center;
   border-radius: 5px 0 0 5px;
@@ -62,7 +63,7 @@ body {
 }
 
 [type=submit] {
-  margin-top: 25px;
+  margin-top: 15px;
   width: 80%;
   border: 0;
   background-color: #0080FF;
